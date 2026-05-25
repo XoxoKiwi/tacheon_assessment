@@ -16,6 +16,7 @@ into BigQuery for analysis.
 
 ## Folder Structure
 
+```
 tacheon_assessment/
 ├── task1_product_scoping/
 │   ├── README.md
@@ -27,6 +28,7 @@ tacheon_assessment/
 │
 ├── .gitignore
 ├── README.md
+```
 
 ## Status
 
