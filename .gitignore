@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+venv/
+.env
+
+# Google Cloud
+*.json
+service_account*.json
+
+# Data files
+*.csv
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
