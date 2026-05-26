@@ -1,0 +1,1 @@
+-- Summary query to be added after BigQuery load
