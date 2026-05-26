@@ -1,22 +1,29 @@
 # Task 1 – My Understanding & Initial Thoughts
 
 ## What the problem is
-The team manually digs through multiple tools to answer
-"how is marketing performing?" every time someone asks.
+The team manually digs through multiple tools to answer 
+"how is marketing performing?" every time someone asks. 
 It's slow, inconsistent, and person-dependent.
 
 ## What needs to be built
-An internal tool that makes this answer fast, consistent,
-and available to anyone on the team.
+An internal tool — named Orbit — that makes this answer 
+fast, consistent, and available to anyone on the team.
 
-## Questions I'm thinking about
-- Who is the primary user? Internal analyst or client?
-- What channels are we tracking? (paid, organic, email, social?)
-- Where does the data live currently?
-- What's the simplest v1 that's still genuinely useful?
+## Who it's for
+Internal team only (analysts, account managers, 
+strategists). Not clients — that's a different product.
+
+## What I decided to build in v1
+- Cross-channel dashboard (Meta, GA4, Shopify)
+- Consistent metric definitions across all brands
+- Threshold-based anomaly alerts
+- Source transparency on every number
 
 ## What I'm NOT building in v1
-(to be decided — thinking about it)
+- AI summaries (trust risk before baseline is stable)
+- Client-facing access (different product entirely)
+- Forecasting, budget automation, custom reports
 
-## Ideas so far
-(to be filled as I think more)
+## Key insight
+This is a workflow + consistency problem, not a 
+data problem. The data exists. The assembly is broken.
