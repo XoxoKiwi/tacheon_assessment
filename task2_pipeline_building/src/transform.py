@@ -102,7 +102,7 @@ def transform_city_data(raw_data: dict) -> list[dict]:
     precipitation_list = daily.get("precipitation_sum", [])
     uv_index_list = daily.get("uv_index_max", [])
     windspeed_list = daily.get("windspeed_10m_max", [])
-    humidity_list = daily.get("relativehumidity_2m_max", [])
+    humidity_list = daily.get("precipitation_hours", [])
 
     rows = []
 
@@ -123,7 +123,7 @@ def transform_city_data(raw_data: dict) -> list[dict]:
                 "precipitation": precipitation,
                 "uv_index": uv_index,
                 "windspeed_max": windspeed,
-                "humidity": humidity,
+                "precipitation_hours": humidity,
                 # Derived fields
                 "weather_category": get_weather_category(precipitation),
                 "heatwave_flag": get_heatwave_flag(temp_max),
