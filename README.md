@@ -1,22 +1,25 @@
+````markdown id="m4x8qp"
 # Tacheon Assessment – Data & AI Product Engineer
 
-Submitted by: Heena
+**Submitted by:** Heena
+
+---
+
+## Overview
+
+This repository contains both tasks for the Tacheon Data & AI Product Engineer assessment.
+
+- **Task 1 — Product Scoping**  
+  Scoped Orbit, an internal marketing performance insights tool for teams managing multiple D2C client brands.
+
+- **Task 2 — Pipeline Building**  
+  Built a Python ETL pipeline using the Open-Meteo API, transforming weather data and loading it into Google BigQuery.
+
+---
 
 ## Repository Structure
 
-### Task 1 – Product Scoping
-Designing a scalable internal marketing performance 
-insights tool focused on usability, consistency, 
-and operational efficiency.
-
-### Task 2 – Pipeline Building
-Building a Python-based ETL pipeline using Open-Meteo 
-API, transforming structured data, and loading it 
-into BigQuery for analysis.
-
-## Folder Structure
-
-```
+```text
 tacheon_assessment/
 ├── task1_product_scoping/
 │   ├── notes.md
@@ -27,23 +30,38 @@ tacheon_assessment/
 │
 ├── task2_pipeline_building/
 │   ├── src/
-│   │   ├── pipeline.py
-│   │   ├── transform.py
 │   │   ├── config.py
-│   │   └── logger.py
+│   │   ├── logger.py
+│   │   ├── extract.py
+│   │   ├── transform.py
+│   │   ├── load.py
+│   │   └── pipeline.py
+│   │
 │   ├── queries/
 │   │   └── summary.sql
+│   │
 │   ├── screenshots/
-│   ├── README.md
-│   └── walkthrough.md
+│   ├── walkthrough.md
+│   └── README.md
 │
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
-## Status
-Day 1 – Repository setup and planning complete.
-Day 2 – Task 1 complete. Task 2 structure, API 
-selection, and BigQuery setup complete.
+---
 
+## Tech Stack
+
+- Python
+- Google BigQuery
+- Open-Meteo API
+- SQL
+
+---
+
+## Status
+
+- Task 1: Complete ✅
+- Task 2: Complete ✅
+````
