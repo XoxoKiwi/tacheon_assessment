@@ -1,4 +1,4 @@
-````markdown id="m4x8qp"
+
 # Tacheon Assessment – Data & AI Product Engineer
 
 **Submitted by:** Heena
@@ -19,7 +19,7 @@ This repository contains both tasks for the Tacheon Data & AI Product Engineer a
 
 ## Repository Structure
 
-```text
+```
 tacheon_assessment/
 ├── task1_product_scoping/
 │   ├── notes.md
@@ -64,4 +64,4 @@ tacheon_assessment/
 
 - Task 1: Complete ✅
 - Task 2: Complete ✅
-````
+
