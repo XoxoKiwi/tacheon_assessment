@@ -19,7 +19,7 @@ DAILY_VARIABLES = [
     "precipitation_sum",
     "uv_index_max",
     "windspeed_10m_max",
-    "relativehumidity_2m_max",
+    "precipitation_hours",
 ]
 
 # Number of past days to fetch (Open-Meteo supports up to 92 days)
